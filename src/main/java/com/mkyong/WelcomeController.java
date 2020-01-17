@@ -24,12 +24,13 @@ public class WelcomeController {
 			String theKey = (String) it.next();
 			System.out.print(theKey + formData.getFirst(theKey));
 		}
+		// sample view secret yml
 		model.put("message", this.message);
-		model.put("Customer_Name", "BalaEragam");
-		model.put("Corporate_ID", "BALAKIRAN");
-		model.put("User_ID", "BALAKIRAN");
-		model.put("VERIFYURL", "?bwayparam=rR%2BaKG1fAIDr%2Bjgc%2FZqHCTlqHQnByDVZEewK5mG%2F1oPD0P28RZtWpJmoMmoh4Y6ZWk4t2c4SyJo01XhB%2B93vIsydNotX0DD8u2GiytTlBhZncCqvhjVoptf3UsrbIzTD%0D%0Av1TDCp%2FlYqmMgmO8bq8Xw5t71c2EaNhUlznAI1nbEwA%3D&uniqueId=0000JMPNtF7JjcsHXDp78O37fyj:-1");
-		model.put("VERSION", "rakesh.sukhavasi@icicibank.com");
+		model.put("Customer_Name", "");
+		model.put("Corporate_ID", "");
+		model.put("User_ID", "");
+		model.put("VERIFYURL", "");
+		model.put("VERSION", "");
 		return "welcome";
 	}
 
